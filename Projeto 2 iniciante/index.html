@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <h1 style="padding-left: 450px;">Restaurante do Juan</h1>
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4" style="margin-left: 510px;">Insira um valor para incluir na conta</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="R$ 00,00" style="width: 400px; margin-left: 450px;">
+        <button type="button" onclick="adicionarIten()" class="btn btn-outline-dark" style="margin-left: 600px; margin-top: 15px;">Incluir</button>
+      </div>
+      <h6 style="margin-left:518px; margin-top: 15px;">Quantidade de Itens na Conta: <span id="contador">0</span></h6>
+      <button type="button" class="btn btn-outline-info" style="margin-left:585px" onclick="somarTotal()">Gerar Total</button>
+      <h5 style="margin-left:615px ; margin-top: 15px;">R$: <span id="somar">0</span></h5>
+      
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
